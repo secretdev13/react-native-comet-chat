@@ -24,7 +24,6 @@ project.xcworkspace
 
 # Android/IntelliJ
 #
-CometChatWorkspace/cometchat-app/android/app/build/
 cometchat-app/android/app/build/
 /android/app/build/
 /app/build/
@@ -47,7 +46,7 @@ yarn.lock # include if you are using yarn - don't use both npm and yarn
 buck-out/
 \.buckd/
 *.keystore
-!CometChatWorkspace/cometchat-app/android/app/debug.keystore
+!cometchat-app/android/app/debug.keystore
 
 # Fastlane
 #
@@ -60,8 +59,7 @@ buck-out/
 */fastlane/Preview.html
 */fastlane/screenshots
 
-# Pods 
-CometChatWorkspace/cometchat-app/ios/Pods/
+# Pods
 cometchat-app/ios/Pods/
 /ios/Pods/
 ios/Pods/*
